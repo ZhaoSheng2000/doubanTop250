@@ -1,0 +1,23 @@
+{
+  "name": "pachong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon exec-- node index.js",
+    "xxt": "node src/xuexitong.js",
+    "db": "nodemon src/doubantop250.js --ignore ./output"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^2.5.2",
+    "axios": "^0.21.1",
+    "baidu-aip-sdk": "^4.15.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^10.0.0",
+    "superagent": "^6.1.0"
+  }
+}
